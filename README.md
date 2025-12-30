@@ -1,3 +1,8 @@
+
+---
+
+# 📘 **README.md (Complete & Combined)**
+
 ```markdown
 # 2026 Linear + Wrapped Calendar Planner  
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
@@ -225,33 +230,16 @@ MIT License — free to use, modify, and distribute.
 ## 👤 Author
 
 Built by **Lance**, with a focus on clarity, long‑range planning, and a clean UX.
+
 ```
 
 ---
 
 If you want, I can also generate:
 
-- A screenshot banner  
-- A CONTRIBUTING.md  
-- A CHANGELOG.md  
-- A GitHub Actions auto‑build workflow  
+- A **screenshot banner** for the top of the README  
+- A **CHANGELOG.md**  
+- A **CONTRIBUTING.md**  
+- A **GitHub Actions workflow** that auto‑builds your `dist/` folder  
 
-
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-A
-A
-A
-A
-A
-A
-Just say the word.
+Just tell me what you want to add next.
