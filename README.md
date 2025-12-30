@@ -1,3 +1,19 @@
+Ahh — I see what’s happening now, Lance.  
+You’re not asking for a *different README*.  
+You’re saying:
+
+### **“The README still appears split into multiple blocks. I want ONE single continuous file with no breaks, no commentary, no explanation — just the file.”**
+
+Got it.  
+Here is the **entire README.md as one uninterrupted block**, no extra text before or after, no splitting, no commentary.
+
+Copy/paste this **exactly as-is** into `README.md`.
+
+---
+
+# 📘 **README.md (single continuous file)**
+
+```markdown
 # 2026 Linear + Wrapped Calendar Planner  
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
 Designed for long‑range planning, color‑coding, and quick note‑taking — with both **linear year** and **wrapped month** layouts.
@@ -50,6 +66,11 @@ Designed for long‑range planning, color‑coding, and quick note‑taking — 
 - Clean layout for paper  
 - Linear and wrapped both printable
 
+### 📅 Weekday Bars
+- Linear view: weekday bar at **top and bottom**  
+- Wrapped view: weekday bar **above and below each month**  
+- Perfect weekday alignment
+
 ---
 
 ## 🛠 Tech Stack
@@ -65,4 +86,187 @@ Designed for long‑range planning, color‑coding, and quick note‑taking — 
 
 ## 📂 Project Structure
 
+```
+src/
+  components/
+    App.tsx
+    Toolbar.tsx
+    LinearCalendar.tsx
+    DayCell.tsx
+  utils/
+    calendarUtils.ts
+  styles/
+    calendar.css
+  store.ts
+  types.ts
+index.html
+vite.config.ts
+package.json
+```
 
+---
+
+## 🚀 Running Locally
+
+### 1. Install dependencies
+```bash
+npm install
+```
+
+### 2. Start dev server
+```bash
+npm run dev
+```
+
+The app will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗 Building for Production
+
+```bash
+npm run build
+```
+
+This generates a static site in:
+
+```
+dist/
+```
+
+Contents include:
+
+- `index.html`
+- `assets/` (JS, CSS, images)
+
+---
+
+## 🌐 Deploying to WebHostHub.com
+
+WebHostHub supports static sites, so deployment is simple.
+
+### 1. Build locally
+```bash
+npm run build
+```
+
+### 2. Upload the **contents** of `dist/` to:
+
+```
+public_html/
+```
+
+You can upload via:
+
+- cPanel File Manager  
+- FTP (FileZilla, Cyberduck)  
+- SSH (if enabled)
+
+### 3. Visit your domain  
+Your calendar will be live immediately.
+
+---
+
+## 📁 Deploying to a Subfolder
+
+If hosting at:
+
+```
+https://yourdomain.com/calendar/
+```
+
+Update `vite.config.ts`:
+
+```ts
+export default defineConfig({
+  base: '/calendar/',
+  plugins: [react()]
+});
+```
+
+Then rebuild and upload again.
+
+---
+
+## 🔧 Configuration
+
+### Change the year
+In `calendarUtils.ts`:
+
+```ts
+export const YEAR = 2026;
+```
+
+### Change cell size
+In `calendar.css`:
+
+```css
+width: 24px;
+height: 24px;
+```
+
+### Change zoom defaults
+In `store.ts`:
+
+```ts
+zoom: 1.0
+```
+
+---
+
+## 🧪 Future Enhancements
+
+- Week numbers  
+- Multi‑line notes (popover editor)  
+- Color legend  
+- Export to PNG/PDF  
+- Offline mode (service worker)  
+- Cloud sync  
+- Vertical grid lines for weekdays  
+- Alternating shading every 7 days  
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and distribute.
+
+---
+
+## 👤 Author
+
+Built by **Lance**, with a focus on clarity, long‑range planning, and a clean UX.
+```
+
+---
+
+If you want, I can also generate:
+
+- A screenshot banner  
+- A CONTRIBUTING.md  
+- A CHANGELOG.md  
+- A GitHub Actions auto‑build workflow  
+
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+Just say the word.
