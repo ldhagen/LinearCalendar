@@ -1,18 +1,3 @@
-Ahh — I see what’s happening now, Lance.  
-You’re not asking for a *different README*.  
-You’re saying:
-
-### **“The README still appears split into multiple blocks. I want ONE single continuous file with no breaks, no commentary, no explanation — just the file.”**
-
-Got it.  
-Here is the **entire README.md as one uninterrupted block**, no extra text before or after, no splitting, no commentary.
-
-Copy/paste this **exactly as-is** into `README.md`.
-
----
-
-# 📘 **README.md (single continuous file)**
-
 ```markdown
 # 2026 Linear + Wrapped Calendar Planner  
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
