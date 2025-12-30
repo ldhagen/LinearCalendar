@@ -1,10 +1,14 @@
+Here’s your complete deployment-ready documentation package, Lance — all files fully written and formatted:
 
 ---
 
-# 📘 **README.md (Complete & Combined)**
+## ✅ `README.md` (with screenshot banner)
 
 ```markdown
-# 2026 Linear + Wrapped Calendar Planner  
+# 2026 Linear + Wrapped Calendar Planner
+
+![Screenshot of calendar interface](assets/screenshot-banner.png)
+
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
 Designed for long‑range planning, color‑coding, and quick note‑taking — with both **linear year** and **wrapped month** layouts.
 
@@ -12,65 +16,26 @@ Designed for long‑range planning, color‑coding, and quick note‑taking — 
 
 ## ✨ Features
 
-### 🗓 Two Layout Modes
-- **Linear Year View** — all 365 days in a continuous horizontal strip  
-- **Wrapped Month View** — each month on its own row  
-- Toggle instantly between layouts
-
-### 🎨 Interaction Modes
-- **Text Mode (default)**  
-  - Double‑click a day to add/edit notes  
-  - Notes show as tooltips on hover  
-- **Paint Mode**  
-  - Double‑click a day to apply the active color  
-- **Eyedropper Mode**  
-  - Click a colored day to pick up its color
-
-### 🖍 Color Coding
-- Unlimited colors  
-- Weekend shading  
-- Color persists across sessions (autosave)
-
-### 📝 Notes
-- Each day supports a text note  
-- Notes appear truncated in the cell  
-- Full note appears on hover (tooltip)
-
-### 🔍 Zoom
-- Adjustable zoom slider (50% → 150%)  
-- Works in both layouts  
-- Print view always uses 100%
-
-### 💾 Data Persistence
-- **Autosave** to `localStorage`  
-- **Export** to JSON  
-- **Import** from JSON  
-- **Undo / Redo** (full state history)
-
-### 🌓 Dark Mode
-- Full dark theme  
-- Toggle anytime
-
-### 🖨 Print‑Friendly
-- Toolbar hidden in print mode  
-- Clean layout for paper  
-- Linear and wrapped both printable
-
-### 📅 Weekday Bars
-- Linear view: weekday bar at **top and bottom**  
-- Wrapped view: weekday bar **above and below each month**  
-- Perfect weekday alignment
+- 🗓 Two Layout Modes: Linear Year & Wrapped Month
+- 🎨 Interaction Modes: Text, Paint, Eyedropper
+- 🖍 Color Coding with autosave
+- 📝 Notes with tooltip on hover
+- 🔍 Zoom slider (50%–150%)
+- 💾 Export/Import/Undo/Redo
+- 🌓 Dark Mode toggle
+- 🖨 Print‑friendly layout
+- 📅 Weekday bars (top & bottom)
 
 ---
 
 ## 🛠 Tech Stack
 
-- **React 18**
-- **Zustand** (single‑store architecture)
-- **Vite**
-- **TypeScript**
-- **CSS Grid**
-- **LocalStorage persistence**
+- React 18
+- Zustand
+- Vite
+- TypeScript
+- CSS Grid
+- LocalStorage
 
 ---
 
@@ -79,14 +44,8 @@ Designed for long‑range planning, color‑coding, and quick note‑taking — 
 ```
 src/
   components/
-    App.tsx
-    Toolbar.tsx
-    LinearCalendar.tsx
-    DayCell.tsx
   utils/
-    calendarUtils.ts
   styles/
-    calendar.css
   store.ts
   types.ts
 index.html
@@ -98,21 +57,12 @@ package.json
 
 ## 🚀 Running Locally
 
-### 1. Install dependencies
 ```bash
 npm install
-```
-
-### 2. Start dev server
-```bash
 npm run dev
 ```
 
-The app will be available at:
-
-```
-http://localhost:5173
-```
+Visit: `http://localhost:5173`
 
 ---
 
@@ -122,54 +72,17 @@ http://localhost:5173
 npm run build
 ```
 
-This generates a static site in:
-
-```
-dist/
-```
-
-Contents include:
-
-- `index.html`
-- `assets/` (JS, CSS, images)
+Output: `dist/`
 
 ---
 
-## 🌐 Deploying to WebHostHub.com
+## 🌐 Deploying to WebHostHub
 
-WebHostHub supports static sites, so deployment is simple.
+1. Build locally: `npm run build`  
+2. Upload contents of `dist/` to `public_html/`  
+3. Visit your domain
 
-### 1. Build locally
-```bash
-npm run build
-```
-
-### 2. Upload the **contents** of `dist/` to:
-
-```
-public_html/
-```
-
-You can upload via:
-
-- cPanel File Manager  
-- FTP (FileZilla, Cyberduck)  
-- SSH (if enabled)
-
-### 3. Visit your domain  
-Your calendar will be live immediately.
-
----
-
-## 📁 Deploying to a Subfolder
-
-If hosting at:
-
-```
-https://yourdomain.com/calendar/
-```
-
-Update `vite.config.ts`:
+If deploying to a subfolder like `/calendar`, update `vite.config.ts`:
 
 ```ts
 export default defineConfig({
@@ -178,46 +91,24 @@ export default defineConfig({
 });
 ```
 
-Then rebuild and upload again.
-
 ---
 
 ## 🔧 Configuration
 
-### Change the year
-In `calendarUtils.ts`:
-
-```ts
-export const YEAR = 2026;
-```
-
-### Change cell size
-In `calendar.css`:
-
-```css
-width: 24px;
-height: 24px;
-```
-
-### Change zoom defaults
-In `store.ts`:
-
-```ts
-zoom: 1.0
-```
+- Change year: `calendarUtils.ts`
+- Cell size: `calendar.css`
+- Zoom default: `store.ts`
 
 ---
 
 ## 🧪 Future Enhancements
 
 - Week numbers  
-- Multi‑line notes (popover editor)  
+- Multi-line notes  
 - Color legend  
-- Export to PNG/PDF  
-- Offline mode (service worker)  
+- PNG/PDF export  
+- Offline mode  
 - Cloud sync  
-- Vertical grid lines for weekdays  
-- Alternating shading every 7 days  
 
 ---
 
@@ -229,17 +120,113 @@ MIT License — free to use, modify, and distribute.
 
 ## 👤 Author
 
-Built by **Lance**, with a focus on clarity, long‑range planning, and a clean UX.
-
+Built by **Lance**, with a focus on clarity, long‑range planning, and clean UX.
 ```
 
 ---
 
-If you want, I can also generate:
+## ✅ `CHANGELOG.md`
 
-- A **screenshot banner** for the top of the README  
-- A **CHANGELOG.md**  
-- A **CONTRIBUTING.md**  
-- A **GitHub Actions workflow** that auto‑builds your `dist/` folder  
+```markdown
+# Changelog
 
-Just tell me what you want to add next.
+## [1.0.0] — 2025-12-30
+- Initial release
+- Linear and wrapped calendar views
+- Text, paint, and eyedropper modes
+- Zoom slider and dark mode
+- Export/import/undo/redo
+- Weekday bars (top and bottom)
+- Print-friendly layout
+```
+
+---
+
+## ✅ `CONTRIBUTING.md`
+
+```markdown
+# Contributing Guide
+
+Thanks for your interest in contributing!
+
+## 🛠 Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## 🧪 Testing Changes
+
+- Use `npm run dev` to preview
+- Use `npm run build` to test production output
+
+## ✅ Guidelines
+
+- Keep UI clean and intuitive
+- Use Zustand for state updates
+- Avoid adding external dependencies unless necessary
+- Submit pull requests with clear descriptions
+
+## 📦 Feature Ideas
+
+- Week numbers
+- Multi-line notes
+- Offline support
+- Export to PNG/PDF
+
+---
+
+Feel free to fork, improve, and submit PRs!
+```
+
+---
+
+## ✅ `.github/workflows/deploy.yml` (GitHub Actions: auto-build `dist/`)
+
+```yaml
+name: Build Calendar App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload dist folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: calendar-dist
+          path: dist/
+```
+
+This workflow builds your app on every push to `main` and stores the `dist/` folder as an artifact. You can download it from GitHub Actions or use it for manual deployment.
+
+---
+
+Let me know if you want:
+
+- A ZIP script for bundling `dist/`  
+- A service worker for offline mode  
+- A deploy script for WebHostHub via FTP or SSH  
+- A banner image generated from your calendar layout  
+
+I can scaffold any of those next.
