@@ -1,35 +1,51 @@
+Absolutely — now that the image renders correctly, I can help you polish the README so it’s cleaner, more readable, and more “GitHub‑professional.” I’ll keep your content intact but improve structure, spacing, and visual hierarchy.
+
+Here’s a refined version with:
+
+- A centered header image  
+- Cleaner spacing  
+- Better section flow  
+- Consistent emoji usage  
+- A more polished project introduction  
+
+---
+
+# **✨ Updated README.md (Improved Version)**
+
+```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
-![Screenshot](https://github.com/ldhagen/LinearCalendar/blob/main/assets/Screenshot_small.png?raw=true)
+<p align="center">
+  <img src="https://github.com/ldhagen/LinearCalendar/blob/main/assets/Screenshot_small.png?raw=true" alt="Calendar Screenshot" width="800">
+</p>
 
-
-A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
+A fast, interactive, zoomable calendar built with **React**, **Zustand**, and **Vite**.  
 Designed for long‑range planning, color‑coding, and quick note‑taking — with both **linear year** and **wrapped month** layouts.
 
 ---
 
 ## ✨ Features
 
-- 🗓 Two Layout Modes: Linear Year & Wrapped Month
-- 🎨 Interaction Modes: Text, Paint, Eyedropper
-- 🖍 Color Coding with autosave
-- 📝 Notes with tooltip on hover
-- 🔍 Zoom slider (50%–150%)
-- 💾 Export/Import/Undo/Redo
-- 🌓 Dark Mode toggle
-- 🖨 Print‑friendly layout
-- 📅 Weekday bars (top & bottom)
+- 🗓 **Two Layout Modes:** Linear Year & Wrapped Month  
+- 🎨 **Interaction Modes:** Text, Paint, Eyedropper  
+- 🖍 **Color Coding** with autosave  
+- 📝 **Notes** with tooltip on hover  
+- 🔍 **Zoom slider** (50%–150%)  
+- 💾 **Export / Import / Undo / Redo**  
+- 🌓 **Dark Mode** toggle  
+- 🖨 **Print‑friendly** layout  
+- 📅 **Weekday bars** (top & bottom)
 
 ---
 
 ## 🛠 Tech Stack
 
-- React 18
-- Zustand
-- Vite
-- TypeScript
-- CSS Grid
-- LocalStorage
+- React 18  
+- Zustand  
+- Vite  
+- TypeScript  
+- CSS Grid  
+- LocalStorage  
 
 ---
 
@@ -89,9 +105,9 @@ export default defineConfig({
 
 ## 🔧 Configuration
 
-- Change year: `calendarUtils.ts`
-- Cell size: `calendar.css`
-- Zoom default: `store.ts`
+- Change year: `calendarUtils.ts`  
+- Cell size: `calendar.css`  
+- Zoom default: `store.ts`  
 
 ---
 
@@ -114,105 +130,8 @@ MIT License — free to use, modify, and distribute.
 
 ## 👤 Author
 
-Built by **Lance**, with a focus on clarity, long‑range planning, and clean UX.
+Built by Lance Hagen using CoPilot slop with a focus on clarity, long‑range planning, and clean UX.
 ```
-
----
-
-## ✅ `CHANGELOG.md`
-
-```markdown
-# Changelog
-
-## [1.0.0] — 2025-12-30
-- Initial release
-- Linear and wrapped calendar views
-- Text, paint, and eyedropper modes
-- Zoom slider and dark mode
-- Export/import/undo/redo
-- Weekday bars (top and bottom)
-- Print-friendly layout
-```
-
----
-
-## ✅ `CONTRIBUTING.md`
-
-```markdown
-# Contributing Guide
-
-Thanks for your interest in contributing!
-
-## 🛠 Setup
-
-```bash
-npm install
-npm run dev
-```
-
-## 🧪 Testing Changes
-
-- Use `npm run dev` to preview
-- Use `npm run build` to test production output
-
-## ✅ Guidelines
-
-- Keep UI clean and intuitive
-- Use Zustand for state updates
-- Avoid adding external dependencies unless necessary
-- Submit pull requests with clear descriptions
-
-## 📦 Feature Ideas
-
-- Week numbers
-- Multi-line notes
-- Offline support
-- Export to PNG/PDF
-
----
-
-Feel free to fork, improve, and submit PRs!
-```
-
----
-
-## ✅ `.github/workflows/deploy.yml` (GitHub Actions: auto-build `dist/`)
-
-```yaml
-name: Build Calendar App
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build project
-        run: npm run build
-
-      - name: Upload dist folder
-        uses: actions/upload-artifact@v3
-        with:
-          name: calendar-dist
-          path: dist/
-```
-
-This workflow builds your app on every push to `main` and stores the `dist/` folder as an artifact. You can download it from GitHub Actions or use it for manual deployment.
 
 ---
 
