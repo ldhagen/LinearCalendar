@@ -1,18 +1,4 @@
-Absolutely — now that the image renders correctly, I can help you polish the README so it’s cleaner, more readable, and more “GitHub‑professional.” I’ll keep your content intact but improve structure, spacing, and visual hierarchy.
 
-Here’s a refined version with:
-
-- A centered header image  
-- Cleaner spacing  
-- Better section flow  
-- Consistent emoji usage  
-- A more polished project introduction  
-
----
-
-# **✨ Updated README.md (Improved Version)**
-
-```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
 <p align="center">
