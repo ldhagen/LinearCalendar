@@ -1,7 +1,3 @@
----
-
-## ✅ `README.md` (with screenshot banner)
-
 ```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
