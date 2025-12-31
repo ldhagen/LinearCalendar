@@ -2,7 +2,7 @@
 # 2026 Linear + Wrapped Calendar Planner
 
 <p align="center">
-  <img src="https://github.com/ldhagen/LinearCalendar/blob/main/assets/Screenshot_small.png?raw=true" alt="Calendar Screenshot" width="800">
+  <img src="https://github.com/ldhagen/LinearCalendar/blob/main/assets/Screenshot.png?raw=true" alt="Calendar Screenshot" width="800">
 </p>
 
 A fast, interactive, zoomable calendar built with **React**, **Zustand**, and **Vite**.  
