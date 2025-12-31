@@ -1,4 +1,3 @@
-```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
 ![Screenshot](https://github.com/ldhagen/LinearCalendar/blob/main/assets/Screenshot_small.png?raw=true)
