@@ -1,5 +1,3 @@
-Here’s your complete deployment-ready documentation package, Lance — all files fully written and formatted:
-
 ---
 
 ## ✅ `README.md` (with screenshot banner)
@@ -7,7 +5,7 @@ Here’s your complete deployment-ready documentation package, Lance — all fil
 ```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
-![Screenshot of calendar interface](assets/screenshot-banner.png)
+![Screenshot of calendar interface](assets/Screenshot.png)
 
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
 Designed for long‑range planning, color‑coding, and quick note‑taking — with both **linear year** and **wrapped month** layouts.
@@ -222,11 +220,3 @@ This workflow builds your app on every push to `main` and stores the `dist/` fol
 
 ---
 
-Let me know if you want:
-
-- A ZIP script for bundling `dist/`  
-- A service worker for offline mode  
-- A deploy script for WebHostHub via FTP or SSH  
-- A banner image generated from your calendar layout  
-
-I can scaffold any of those next.
