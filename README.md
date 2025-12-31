@@ -1,7 +1,7 @@
 ```markdown
 # 2026 Linear + Wrapped Calendar Planner
 
-![Screenshot of calendar interface](./assets/Screenshot.png)
+![Screenshot](assets/Screenshot.png)
 
 A fast, interactive, zoomable calendar built with React, Zustand, and Vite.  
 Designed for long‑range planning, color‑coding, and quick note‑taking — with both **linear year** and **wrapped month** layouts.
