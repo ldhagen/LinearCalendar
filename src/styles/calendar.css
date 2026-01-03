@@ -168,7 +168,8 @@ body {
 }
 
 .day-weekend {
-  background: #f0f0f0;
+  background-color: #3a3f47;
+  color: #e8e8e8;
 }
 
 .app-dark .day-weekend {
